@@ -16,7 +16,7 @@ npm install
 
 | Page                           | URL                                              |
 |--------------------------------|--------------------------------------------------|
-| Swagger                        | [http:/[::]:3000/api-docs](Swagger)                      |
+| Swagger                        | [http:/[::]:3000/api-docs](http:/[::]:3000/api-docs) |
 | Homepage                       | [http://[::]:3000/](http://[::]:3000/)          |
 | Login                          | [http://[::]:3000/login](http://[::]:3000/login) |
 | Register                       | [http://[::]:3000/register](http://[::]:3000/register) |
