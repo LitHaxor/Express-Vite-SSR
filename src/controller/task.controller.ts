@@ -81,7 +81,8 @@ class TaskController {
 
       return res.status(201).json(result);
     } catch (error) {
-      res.status(400).json({
+      console.error(error);
+      return res.status(400).json({
         message: "Error while creating task",
       });
     }
@@ -149,7 +150,8 @@ class TaskController {
 
       return res.status(200).json(result);
     } catch (error) {
-      res.status(400).json({
+      console.error(error);
+      return res.status(400).json({
         message: "Error while updating task",
       });
     }
@@ -198,7 +200,8 @@ class TaskController {
 
       return res.status(200).json(task);
     } catch (error) {
-      res.status(400).json({
+      console.error(error);
+      return res.status(400).json({
         message: "Error while fetching task",
       });
     }
@@ -250,7 +253,8 @@ class TaskController {
         result,
       });
     } catch (error) {
-      res.status(400).json({
+      console.error(error);
+      return res.status(400).json({
         message: "Error while deleting task",
       });
     }
@@ -283,7 +287,8 @@ class TaskController {
 
       return res.status(200).json(tasks);
     } catch (error) {
-      res.status(400).json({
+      console.error(error);
+      return res.status(400).json({
         message: "Error while fetching tasks",
       });
     }
