@@ -9,6 +9,35 @@ To install the project dependencies, run the following command:
 npm install
 ```
 
+## Applications
+
+
+### Frontend URLs
+
+| Page                           | URL                                              |
+|--------------------------------|--------------------------------------------------|
+| Swagger                        | [http:/[::]:3000/api-docs](http:/[::]:3000/api-docs) |
+| Homepage                       | [http://[::]:3000/](http://[::]:3000/)          |
+| Login                          | [http://[::]:3000/login](http://[::]:3000/login) |
+| Register                       | [http://[::]:3000/register](http://[::]:3000/register) |
+| Task View Page (Require Auth)  | [http://[::]:3000/tasks](http://[::]:3000/tasks) |
+
+### Backend URLs
+
+#### Task
+
+| Operation   | URL                                                     |
+|-------------|---------------------------------------------------------|
+| CRUD Task   | [http://[::]:3000/api/tasks/{id}](http://[::]:3000/api/tasks/{id}) |
+
+#### Auth
+
+| Operation   | URL                                                     |
+|-------------|---------------------------------------------------------|
+| Login       | [POST Login](http://[::]:3000/api/auth/login)           |
+| Register    | [POST Register](http://[::]:3000/api/auth/register)     |
+
+
 ## Usage
 To start the project, run:
 ```bash
