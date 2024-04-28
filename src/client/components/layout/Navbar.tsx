@@ -35,7 +35,7 @@ const Navbar = () => {
                 <div className="ml-10 flex justify-between items-baseline space-x-4">
                   <a
                     href="/tasks"
-                    className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="bg-cyan-900 text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     View Tasks
                   </a>
@@ -43,7 +43,7 @@ const Navbar = () => {
                   {token ? (
                     <button
                       onClick={destroyToken}
-                      className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
+                      className="bg-red-900 text-white px-3 py-2 rounded-md text-sm font-medium"
                     >
                       Logout
                     </button>
