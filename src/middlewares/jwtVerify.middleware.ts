@@ -30,6 +30,10 @@ export async function jwtVerifyToken(
     jwt.verify(token, JWT_SECRET!);
     const user = jwt.decode(token) as JwtVerifiedUser;
 
+    if (!user) {
+      return res.status(401).json({ message: "Unauthorized" });
+    }
+
     req.user = user;
 
     next();
